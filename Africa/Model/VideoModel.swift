@@ -13,7 +13,7 @@ struct Video: Codable, Identifiable{
     let headline: String
     
     //Computed Propety: Cover Image Name 
-    var videoName: String {
+    var covername: String {
         return "video-\(id)"
     }
 }

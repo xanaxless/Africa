@@ -15,7 +15,7 @@ struct ExternalWebLinkView: View {
         GroupBox{
             HStack {
                 Image(systemName: "globe")
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Text("Wikipedia")
                 Spacer()
                 
                 Group{
