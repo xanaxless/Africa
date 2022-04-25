@@ -40,7 +40,9 @@
 		CB3C1C9F2813D71F0060E31B /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C1C9E2813D71F0060E31B /* HeadingView.swift */; };
 		CB3C1CA12813D96D0060E31B /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C1CA02813D96D0060E31B /* InsetGalleryView.swift */; };
 		CB3C1CA32813E3F60060E31B /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C1CA22813E3F60060E31B /* InsetFactView.swift */; };
+		CB4B05C02816BB05000270BA /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4B05BF2816BB05000270BA /* MotionAnimationView.swift */; };
 		CB594A982816953F0012535C /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB594A972816953F0012535C /* LocationModel.swift */; };
+		CB594A9A28169C200012535C /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB594A9928169C200012535C /* MapAnnotationView.swift */; };
 		CBEA4B452813FBA4009048DB /* InsentMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA4B442813FBA4009048DB /* InsentMapView.swift */; };
 		CBEA4B47281403B8009048DB /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA4B46281403B8009048DB /* ExternalWebLinkView.swift */; };
 		CBEA4B49281407D2009048DB /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA4B48281407D2009048DB /* VideoModel.swift */; };
@@ -93,7 +95,9 @@
 		CB3C1C9E2813D71F0060E31B /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		CB3C1CA02813D96D0060E31B /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		CB3C1CA22813E3F60060E31B /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		CB4B05BF2816BB05000270BA /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		CB594A972816953F0012535C /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		CB594A9928169C200012535C /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		CBEA4B442813FBA4009048DB /* InsentMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsentMapView.swift; sourceTree = "<group>"; };
 		CBEA4B46281403B8009048DB /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		CBEA4B48281407D2009048DB /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				CB11C16F2812BE5B00CA0B2B /* CoverImageView.swift */,
+				CB4B05BF2816BB05000270BA /* MotionAnimationView.swift */,
+				CB594A9928169C200012535C /* MapAnnotationView.swift */,
 				CB3C1CA02813D96D0060E31B /* InsetGalleryView.swift */,
 				CB3C1C9C2813D3D10060E31B /* AnimalDetailView.swift */,
 				CB02C85F281301E800DE1C11 /* AnimalListItemView.swift */,
@@ -344,6 +350,7 @@
 				CB14056C28168A6200B89076 /* VideoPlayerHelper.swift in Sources */,
 				CB11C1762812C13A00CA0B2B /* CodableBundleExtention.swift in Sources */,
 				CBEA4B47281403B8009048DB /* ExternalWebLinkView.swift in Sources */,
+				CB594A9A28169C200012535C /* MapAnnotationView.swift in Sources */,
 				CB11C1422812B03800CA0B2B /* AfricaApp.swift in Sources */,
 				CBEA4B49281407D2009048DB /* VideoModel.swift in Sources */,
 				CB11C1662812BC5300CA0B2B /* VideoListView.swift in Sources */,
@@ -351,6 +358,7 @@
 				CB3C1CA12813D96D0060E31B /* InsetGalleryView.swift in Sources */,
 				CBEA4B4B2814083E009048DB /* VideoListItemView.swift in Sources */,
 				CB11C16A2812BC7900CA0B2B /* GalleryView.swift in Sources */,
+				CB4B05C02816BB05000270BA /* MotionAnimationView.swift in Sources */,
 				CB3C1C9F2813D71F0060E31B /* HeadingView.swift in Sources */,
 				CB140555281686B000B89076 /* VideoPlayerView.swift in Sources */,
 			);
