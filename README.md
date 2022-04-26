@@ -1,6 +1,6 @@
 # Africa
 SwiftUI(pet project) 
-Simple educating app about African animals 
+Simple educating app about African animals made with SwiftUI
 
 <h2>Screenshot<h2>
   
