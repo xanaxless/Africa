@@ -11,6 +11,7 @@ struct GalleryView: View {
     // MARK: - Property
     
     let animals: [Animal] = Bundle.main.decode("animals.json")
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
     @State private var selectedAnimal: String = "lion"
     @State private var gridLayout: [GridItem] = [GridItem(.flexible())]
     @State private var gridColumn: Double = 3.0
@@ -32,7 +33,9 @@ struct GalleryView: View {
                 Slider(value: $gridColumn , in:2...4, step: 1)
                     .padding(.horizontal)
                     .onChange(of: gridColumn) { newValue in
-                        gridSwidch()
+                        withAnimation {
+                            gridSwidch()
+                        }
                     }
                 
                 LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
@@ -44,10 +47,10 @@ struct GalleryView: View {
                             .overlay(Circle().stroke(Color.white, lineWidth: 1))
                             .onTapGesture {
                                 selectedAnimal = item.image
+                                haptics.impactOccurred()
                             }
                     }
                 }//LazyVGrid
-                .animation(.easeIn)
                 .onAppear {
                     gridSwidch()
                 }
